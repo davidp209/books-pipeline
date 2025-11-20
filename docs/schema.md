@@ -1,6 +1,6 @@
 # Data Dictionary: dim_book
 
-**Archivo fuente:** `landing/dim_book.parquet`  
+**Archivo fuente:** `standard/dim_book.parquet`  
 **Descripción:** Tabla dimensional consolidada que unifica datos de Goodreads y Google Books. Prioriza la fuente con mejor calidad de datos mediante `merge_books_pipeline.py`. Contiene información normalizada y enriquecida para análisis y reporting.
 
 ---

@@ -29,8 +29,8 @@ BOOKS-PIPELINE/
 │   └── integrate_pipeline.py →  integración / merge / normalización
 │
 ├── 📂 standard/
-│   ├── dim_book.parquet → tabla maestra de libros (modelo canónico)
-│   └── book_source_detail.parquet → detalle de trazabilidad de fuentes
+│   ├── dim_book.parquet (y .csv) → tabla maestra de libros (modelo canónico)
+│   └── book_source_detail.parquet (y .csv) → detalle de trazabilidad de fuentes
 │
 └── requirements.txt → dependencias del proyecto
 
