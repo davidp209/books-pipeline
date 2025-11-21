@@ -255,7 +255,7 @@ def get_book_ids_from_search(query, target_count=15):
 # --- 5. EJECUCIÓN ROBUSTA ---
 if __name__ == "__main__":
     TERMINO = "Data Science"
-    CANTIDAD_OBJETIVO = 15 
+    CANTIDAD_OBJETIVO = 20 
     
     # A) Asegurar que el archivo existe (para tus pruebas de borrado)
     if not OUTPUT_FILE.exists():

@@ -40,17 +40,25 @@ BOOKS-PIPELINE/
 
 - Python 3.8+ (especificar versión exacta si aplica)
 
-### 1️⃣ Instalar dependencias:
+### 1️⃣ Crea el entorno virtual de nuevo
+
+```bash
+python -m venv .venv
+```
+
+### 3️⃣ Activa el entorno nuevo:
+
+```bash
+.\.venv\Scripts\activate
+```
+
+### 2️⃣ Instalar dependencias:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2️⃣ Activar entorno virtual
 
-```bash
-venv\Scripts\activate
-```
 
 ## 🚀 Ejecución paso a paso
 
